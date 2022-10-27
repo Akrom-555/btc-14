@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.block_1{
+    border: 3px solid #000;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 50px;
+    overflow:scroll;
+    padding: 10px;
+}
+
+.block_2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 6px solid blue;
+    background: red;
+    overflow: hidden;
+}
+
+.block_3{
+    margin-top: 75px;
+    border: 4px solid red;
+    width: 100%;
+    height: 100px;
+    background-color:yellow;
+    overflow-y:scroll;
+}
+
+
+.block_1 p{
+   color: red;
+   font-size: 20px;
+   
+}
+.block_2 p{
+    color: green;
+
+
+}
+
+.block_3 p{
+    color: orange;
+    font-size: 30px;
+
+}
